@@ -1,0 +1,155 @@
+*{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Bree Serif', serif;
+    margin: 0px;
+}
+#financialplanningservices{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: #e1fafa;
+}
+.heading h1{
+    margin: 20px;
+    background-color: rgb(244, 237, 237);
+    padding: 30px;
+    margin: 0px;
+    /* position: absolute; */
+}
+#introduction{
+    /* position: relative; */
+    /* top: 40px; */
+    /* height: 500px; */
+    margin-bottom: 20px;
+    
+}
+.textpositon h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.textpositon{
+    position: absolute;
+    top: 150px;
+    background-color: rgba(62, 111, 236, 0.8);
+    left: 70px;
+    color: white;
+    padding: 54px;
+    padding-left: 44px;
+    line-height: 40px;
+
+}
+#paragraphaboutus{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    margin: -25px;
+    background-color: #e1fafa;
+    height: 300px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    text-align: center;
+    font-size: large;
+    font-weight: 600px;;
+}
+.retirmentplan {
+    height: 500px;
+    text-align: center;
+    width: 400px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 5px;
+}
+img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 350px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
+#aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin-top: 50px; */
+    padding: 20px;
+    background-color: #7CB9E8;
+}
+.photo{
+    width: 100%;
+    margin: 40px;
+}
+.theory{
+    margin: 40px;
+    font-size: 20px;
+}
+@media (max-width: 375px) {
+    .photo {
+      height: 520px;
+      width: 400px;
+    }
+  }
+#fpsfs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ADD8E6;
+    /* margin: 30px;
+    padding: 20px; */
+}
+.fps{
+    font-size: 40px;
+    background-color: #e1fafa;
+
+}
+.text{
+    padding: 40px;
+    /* margin: 40px; */
+    font-size: large;
+}
+.img{
+    padding: 50px;
+    width: 800px;
+}
+button{
+    padding: 13px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 20px;
+    font-size: large;
+    /* margin-left: 20px; */
+}
+#quote{
+    background-color: #6CB4EE;
+    padding: 20px;
+}
+@media (max-width: 880px) {
+    #aboutus, #fpsfs {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 375px) {
+    .card {
+      height: 520px;
+    }
+  }
+/* form{
+    display: flex;
+    flex-wrap: wrap;
+} */
+#contactustoday{
+    background-color: #48D1CC;
+    padding: 20px;
+    display: flex;
+    height: 300px;
+}
+.form{
+    margin: 20px;
+}
